@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(banner-1.png);
+    background-repeat: no-repeat;
+    background-size: 1528px 796px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    bottom: -80px;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    border-top-left-radius: 100% 50px;
+    border-top-right-radius: 100% 50px;
+    z-index: 1;
+}
+
+.hero-text {
+    max-width: 50%;
+    z-index: 2;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    line-height: 1.2;
+}
+
+.hero p {
+    margin: 20px 0;
+    font-size: 1.1em;
+    color: #e0e0e0;
+}
+
+.order-button {
+    display: inline-flex;
+    align-items: center;
+    padding: 12px 25px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 1em;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.order-button span {
+    margin-right: 8px; 
+}
+.order-button:hover {
+    background-color: #555;
+}
+
+.hero-image {
+    max-width: 45%;
+    z-index: 2;
+}
+
+.hero-image img {
+    width: 100%;
+    object-fit: contain;
+    filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.2));
+}
+.nevbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: flex-start;
+    justify-content:space-evenly;
+   padding: 10px;
+   margin-left: 485px;
+   margin-right: 60px;
+  color: white;
+
+}
+#nev{
+    margin: -44px;
+    padding: 10px;
+}
+.logo{
+    margin-left: 111px;
+}
+#colo{
+    color: #2273F8;
+}
+.para1{
+    margin-left: 202px;
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: 400;
+}
+#heding1{
+    font-size: 40px;
+}
+#about{
+    font-family: auto;
+    margin-left: -50px;
+}
+.imge{
+    margin-left: 920px;
+    margin-top: -420px;
+}
+.heding2{
+    font-size: 40px;
+    margin-left: 480px;
+}
+.para3{
+    margin-left: 480px;
+}
+
+
+
+
+
+
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.feature-item {
+  text-align: center;
+  width: 30%;
+  margin: 20px 0;
+}
+
+.icon-circle {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 15px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.feature-item h3 {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.feature-item p {
+  font-size: 0.9rem;
+  color: #666;
+  max-width: 200px;
+  margin: auto;
+}
+.video-section {
+    position: relative;
+    height: 300px;
+    background: url('path-to-your-background-image.jpg') center/cover no-repeat;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 75, 180, 0.8); /* Blue overlay */
+    /* color: white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.overlay h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.overlay p {
+    max-width: 600px;
+    margin: 0 auto 1rem;
+}
+
+.play-button {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.play-button:hover {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.play-button span {
+    font-size: 2rem;
+    color: #004bb4; /* Color of play icon */
+}
+.heading3{
+    margin-left: 515px;
+    font-size: 40px;
+}
+#para4{
+    margin-left: 515px;
+}
+
+
+
+</style>
+<body>
+    <div class="logo">
+        <img src="logo.png" alt="">
+    </div>
+     <div class="nevbar">
+        <div id="nev">Home</div>
+        <div id="nev">About</div>
+        <div id="nev">Features</div>
+        <div id="nev">Features</div>
+        <div id="nev">Features</div>
+        <div id="nev">Faq</div>
+        <div id="nev">Contact</div>
+     </div>
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Best Landing Page<br>For Online Product Marketing</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non.</p>
+            <button class="order-button"><span>🛒</span> Order Now</button>
+        </div>
+        <div class="hero-image">
+            <img src="watch-1.png" alt="Product Image">
+        </div>
+    </section>
+    <div class="para1">
+        <p id="colo">About The Watch</p>
+        <p id="heding1"><b>Best and Fashionable Smart <br> Watch For Easy Life.</b></p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam <br> est, deserunt sequi nisi itaque minima officiis corporis in perferendis <br> rem debitis maxime doloribus voluptatem impedit non incidunt, fugiat <br> fuga pariatur. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <pre id="about">
+            Attractive Interface with Many Options
+            Live Chat and Instant Notification
+            Install App with Unlimited Features
+        </pre>
+    </div>
+    <div class="imge">
+      <img src="about-img.jpg" height="400px" width="500px" alt="">
+    </div>
+
+    <div class="heding2">
+        <p><b>Many Features are Available <br> in The Watch</b></p>
+        <p></p>
+    </div>
+    <div class="para3">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, rerum <br> aut! Tempore maiores ipsum sequi porro ratione officia.</p>
+    </div>
+
+
+    
+  <section class="features">
+    <div class="container">
+      <div class="feature-item">
+        <div class="icon-circle"><i class="icon">📐</i></div>
+        <h3>Attractive Interface</h3>
+        <p>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam.</p>
+      </div>
+      <div class="feature-item">
+        <div class="icon-circle"><i class="icon">🔔</i></div>
+        <h3>Notification Alert</h3>
+        <p>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam.</p>
+      </div>
+      <div class="feature-item">
+        <div class="icon-circle"><i class="icon">📍</i></div>
+        <h3>GPS Tracking</h3>
+        <p>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam.</p>
+      </div>
+      <div class="feature-item">
+        <div class="icon-circle"><i class="icon">💬</i></div>
+        <h3>User Live Chat</h3>
+        <p>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam.</p>
+      </div>
+      <div class="feature-item">
+        <div class="icon-circle"><i class="icon">📱</i></div>
+        <h3>iOS and Android Apps</h3>
+        <p>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam.</p>
+      </div>
+      <div class="feature-item">
+        <div class="icon-circle"><i class="icon">🌐</i></div>
+        <h3>Latest Technology</h3>
+        <p>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam.</p>
+      </div>
+    </div>
+  </section>
+  <section class="video-section">
+    <div class="overlay">
+        <h1>Product Demo Video</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, rerum aut! Tempore maiores ipsum sequi porro ratione officia.</p>
+        <div class="play-button">
+            <span>&#9658;</span>
+        </div>
+    </div>
+   
+</section>
+  <div class="heading3">
+    <p><b>Outstanding Core Features <br> of The Product</b></p>
+  </div>
+  <div id="para4">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, rerum <br>aut! Tempore maiores ipsum sequi porro ratione officia.</p>
+  </div>
+  <div class="container">
+    <div class="features">
+        <div class="feature-box">
+            <div class="icon">👤</div>
+            <h3>User Friendly</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, rerum aut! Tempore maiores ipsum sequi porro ratione officia.</p>
+        </div>
+        <div class="feature-box">
+            <div class="icon">📋</div>
+            <h3>Unlimited Features</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, rerum aut! Tempore maiores ipsum sequi porro ratione officia.</p>
+        </div>
+        <div class="feature-box">
+            <div class="icon">🔒</div>
+            <h3>High Security</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, rerum aut! Tempore maiores ipsum sequi porro ratione officia.</p>
+        </div>
+        <div class="feature-box">
+            <div class="icon">🔄</div>
+            <h3>Free Updates</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, rerum aut! Tempore maiores ipsum sequi porro ratione officia.</p>
+        </div>
+    </div>
+  
+</div>
+<div>
+    <img src="watch-2.png" alt="">
+</div>
+
+</body>
+</html>
